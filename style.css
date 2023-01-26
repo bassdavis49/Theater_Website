@@ -1,0 +1,115 @@
+* {
+font-family: roboto;
+}
+
+h1 {
+    z-index: 1;
+}
+.navbar-container {
+display: flex;
+flex-direction: row;
+background-color: solid black;
+}
+
+.navbar-brand {
+    justify-self: start;
+}
+
+.navbar {
+    background-color: solid black;
+    text-decoration-color: black;
+    justify-content: center;
+}
+
+.background-image {
+    z-index: -1;
+}
+
+.datebox {
+    border: 1px solid black;
+    justify-content: center;
+    margin: 5px;
+    /* width: 1200px; */
+    
+}
+
+.date {
+padding-left: 150px;
+height: 100%;
+background-color: lightgray;
+justify-content: center;
+align-items: center;
+}
+.wrapper1 {
+display: grid;
+grid-template-columns: repeat(3, 300px);
+align-items: center;
+justify-content: space-between;
+padding: 1px;
+padding-left: 175px;
+padding-right: 175px;
+}
+
+.hr-box {
+    justify-content: center;
+}
+
+.button1 {
+color: rgb(236, 234, 224);
+background-color: rgb(247, 184, 11);
+width: 125px;
+height: 40px;
+border: 1px;
+border-radius: 1px;
+border-color: solid black;
+
+}
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+justify-content: center;
+align-items: center;
+padding-bottom: 30px;
+}
+
+
+.foot-info {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
+}
