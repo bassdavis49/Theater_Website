@@ -14,23 +14,23 @@
 <!-- Navbar (Home, Features, Our Actors, Mission, Contact) -->
 <nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top" id="home">
     <div class="navbar-brand"><a href="#">Griot Theater</a></div>
-        <div class="navbar-container">
+        <div class="navbar-container-flex">
             <div class="collapse navbar-collapse" id="navmenu">
                 <div class="navbar-list">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Home</a>
+                        <li class="nav-link">
+                            <a href="#home" class="nav-link">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-link">
                             <a href="#index.html" class="nav-link">Features</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-link">
                            <a href="#actors" class="nav-link">Our Actors</a>
                        </li>
-                        <li class="nav-item">
+                        <li class="nav-link">
                             <a href="#mission" class="nav-link">Mission</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-link">
                            <a href="#contact us" class="nav-link">Contact Us</a>
                        </li>
                     </ul>
@@ -39,14 +39,14 @@
         </div>
     </nav>
 
-
 <!-- Main Image -->
-<section class="background-image">
-    <div>
-        <img src="static/kyle-head-p6rNTdAPbuk-unsplash.jpg" alt="Theater curtain with backlit images of ballet dancers" class="background" width="100%">
+<section class="main-landing-page-one bg-image">
+    <div class="bg-image d-flex">
+        <img src="static/theater-image-background.png" alt="Theater curtain with backlit images of ballet dancers" class="bg-image">
+        <!-- <div class="featured">Featured Shows</div> -->
     </div>
-    <h1>Featured Shows</h1>
 </section>
+
 <section>
     <div class="datebox">
         <div class="date">
@@ -56,75 +56,76 @@
         </div>
     </div>
 </section>
+
 <!-- Flyer Tiles -->
 <section class="flyer-tile" id="flyers">
     <div class="wrap-container">
-        <div class="wrapper1">
-            <div class="box-box1">
-                <img src="static/samantha-weisburg-hFTcxZFsG6g-unsplash.jpg" alt="" width="300px" height="300px">
+        <div class="container-row">
+            <div class="container-column">
+                <img src="static/a-raisin-in-the-sun-theater-1.png" alt="" width="300px" height="300px">
             </div>
-            <div class="box-box2">
-                <h5>A Raisin In The Sun</h5>
-                <p>April 6, 2020 - March 20, 2020</p>
+            <div class="container-column-2">
+                <h5>A Raisin In The Sun</h5><br>
+                <p>April 6, 2020 - March 20, 2020</p><br>
                 <p>Griot Theatre 233 State St Chicago,IL</p> 
                 <p>$75</p>
             </div>
-            <div class="box-box3">
-                <button class="button1" type="button">READ MORE</button>
-            </div>
-            <div class="hr-box">
-                <hr width="1000px">
-            </div> 
-        </div>
-    </div>
-    <div class="wrap-container">
-        <div class="wrapper1">
-            <div class="box-box1">
-                <img src="static/samantha-weisburg-hFTcxZFsG6g-unsplash.jpg" alt="" width="300px" height="300px">
-            </div>
-            <div class="box-box2">
-                <h5>A Raisin In The Sun</h5>
-                <p>April 6, 2020 - March 20, 2020</p>
-                <p>Griot Theatre 233 State St Chicago,IL $75</p>
-            </div>
-            <div class="box-box3">
-                <button class="button1" type="button">READ MORE</button>
-            </div>
-            <hr width="1000px">
-        </div>
-    </div>
-    <div class="wrap-container">
-        <div class="wrapper1">
-            <div class="box-box1">
-                <img src="static/samantha-weisburg-hFTcxZFsG6g-unsplash.jpg" alt="" width="300px" height="300px">
-            </div>
-            <div class="box-box2">
-                <h5>A Raisin In The Sun</h5>
-                <p>April 6, 2020 - March 20, 2020</p>
-                <p>Griot Theatre 233 State St Chicago,IL $75</p>
-            </div>
-            <div class="box-box3">
-                <button class="button1" type="button">READ MORE</button>
-            </div>
-            <hr width="1000px">
-        </div>
-    </div>
-    <div class="wrap-container">
-        <div class="wrapper1">
-            <div class="box-box1">
-                <img src="static/samantha-weisburg-hFTcxZFsG6g-unsplash.jpg" alt="" width="300px" height="300px">
-            </div>
-            <div class="box-box2">
-                <h5>A Raisin In The Sun</h5>
-                <p>April 6, 2020 - March 20, 2020</p>
-                <p>Griot Theatre 233 State St Chicago,IL $75</p>
-            </div>
-            <div class="box-box3">
+            <div class="container-column">
                 <button class="button1" type="button">READ MORE</button>
             </div>
         </div>
+<div class="hr-box">
+    <hr>
+</div>
+        <div class="container-row">
+            <div class="container-column">
+                <img src="static/a-raisin-in-the-sun-theater-1.png" alt="" width="300px" height="300px">
+            </div>
+            <div class="container-column-2">
+                <h5>A Raisin In The Sun</h5><br>
+                <p>April 6, 2020 - March 20, 2020</p><br>
+                <p>Griot Theatre 233 State St Chicago,IL</p> 
+                <p>$75</p>
+            </div>
+            <div class="container-column">
+                <button class="button1" type="button">READ MORE</button>
+            </div>
+        </div>
+<div class="hr-box">
+    <hr>
+</div>
+    <div class="container-row">
+        <div class="container-column">
+            <img src="static/a-raisin-in-the-sun-theater-1.png" alt="" width="300px" height="300px">
+        </div>
+        <div class="container-column-2">
+            <h5>A Raisin In The Sun</h5><br>
+            <p>April 6, 2020 - March 20, 2020</p><br>
+            <p>Griot Theatre 233 State St Chicago,IL</p> 
+            <p>$75</p>
+        </div>
+        <div class="container-column">
+            <button class="button1" type="button">READ MORE</button>
+        </div>
     </div>
-
+<div class="hr-box">
+    <hr>
+</div>
+    <div class="container-row">
+        <div class="container-column">
+            <img src="static/a-raisin-in-the-sun-theater-1.png" alt="" width="300px" height="300px">
+        </div>
+        <div class="container-column-2">
+            <h5>A Raisin In The Sun</h5><br>
+            <p>April 6, 2020 - March 20, 2020</p><br>
+            <p>Griot Theatre 233 State St Chicago,IL</p> 
+            <p>$75</p>
+        </div>
+        <div class="container-column">
+            <button class="button1" type="button">READ MORE</button>
+        </div>
+    </div>
+    </div>   
 </section>
 
 <!-- Footer -->
